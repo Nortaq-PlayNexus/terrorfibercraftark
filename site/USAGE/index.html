@@ -1,0 +1,1078 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Admin cluster toolkit for the Terror Fibercraft 1000x ARK cluster.">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../api/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Usage - Terror Fibercraft 1000x Toolkit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#terror-fibercraft-1000x-usage-guide-v31" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Terror Fibercraft 1000x Toolkit" class="md-header__button md-logo" aria-label="Terror Fibercraft 1000x Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Terror Fibercraft 1000x Toolkit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Usage
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/anomalyco/opencode" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Usage
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../api/" class="md-tabs__link">
+          
+  
+  
+  API Reference
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Terror Fibercraft 1000x Toolkit" class="md-nav__button md-logo" aria-label="Terror Fibercraft 1000x Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Terror Fibercraft 1000x Toolkit
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/anomalyco/opencode" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usage
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#install" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environment-secrets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment / secrets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#console-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Console scripts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Console scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sculpt-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sculpt generator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rcon-selftest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RCON selftest
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nitrado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nitrado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discord-bot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discord bot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lint-type-check-test-build" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lint, type-check, test, build
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Docker
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CI
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project layout
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    API Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/config/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Config
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/rcon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RCON
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/nitrado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nitrado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generators
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/discord_bot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discord
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/cog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="terror-fibercraft-1000x-usage-guide-v31">Terror Fibercraft 1000x — Usage Guide (v3.1)<a class="headerlink" href="#terror-fibercraft-1000x-usage-guide-v31" title="Permanent link">&para;</a></h1>
+<p>The toolkit is a proper, installable Python package under <code>src/terrorfibercraft/</code>,
+managed natively with <a href="https://docs.astral.sh/uv/">uv</a>. This page is the canonical
+reference for installing and running every tool.</p>
+<h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
+<p>Requires <strong>Python 3.11+</strong> and <code>uv</code> (recommended) or plain pip.</p>
+<div class="highlight"><pre><span></span><code>uv sync --extra bot   # installs the package + dev groups + Discord extra
+# to also pre-build docs tooling:  uv sync --all-groups --extra bot
+</code></pre></div>
+<p><code>uv sync</code> creates a <code>.venv</code>, installs the package, and installs the <code>dev</code>
+dependency group (which itself pulls in the <code>lint</code>, <code>test</code>, and <code>docs</code> groups)
+from the committed <code>uv.lock</code>. The <code>bot</code> extra adds <code>discord.py</code>, needed only if
+you run the Discord bot. Activate the venv, or prefix commands with <code>uv run</code>.</p>
+<p>The full set of dependency groups:</p>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lint</code></td>
+<td><code>ruff</code>, <code>mypy</code></td>
+</tr>
+<tr>
+<td><code>test</code></td>
+<td><code>pytest</code>, <code>pytest-asyncio</code>, <code>pytest-cov</code>, <code>tox</code>, <code>tox-uv</code></td>
+</tr>
+<tr>
+<td><code>docs</code></td>
+<td><code>mkdocs</code>, <code>mkdocs-material</code>, <code>mkdocstrings[python]</code>, <code>mkdocs-autorefs</code></td>
+</tr>
+<tr>
+<td><code>dev</code></td>
+<td><code>pre-commit</code>, <code>build</code>, <code>twine</code> + includes <code>lint</code>/<code>test</code>/<code>docs</code></td>
+</tr>
+</tbody>
+</table>
+<p>Or, with plain pip:</p>
+<div class="highlight"><pre><span></span><code>pip install -e ".[bot]"        # runtime + Discord
+pip install -e ".[bot]" --config-settings=...  # extras not grouped here
+</code></pre></div>
+<h2 id="environment-secrets">Environment / secrets<a class="headerlink" href="#environment-secrets" title="Permanent link">&para;</a></h2>
+<p>Never commit real tokens. Two supported sources:</p>
+<ol>
+<li><strong><code>config.json</code></strong> (for the Discord bot only) — copy <code>config.example.json</code> → <code>config.json</code>.</li>
+<li><strong>Environment variables</strong> — copy <code>.env.example</code> → <code>.env</code>, or set real env vars.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Var</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TF_DISCORD_TOKEN</code></td>
+<td>Discord bot token</td>
+</tr>
+<tr>
+<td><code>TF_NITRADO_TOKEN</code></td>
+<td>Nitrado REST API token</td>
+</tr>
+<tr>
+<td><code>TF_ADMIN_ROLE</code></td>
+<td>Required Discord role for admin commands (default <code>Admin</code>)</td>
+</tr>
+<tr>
+<td><code>TF_LOG_LEVEL</code></td>
+<td>Logging level (default <code>INFO</code>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="console-scripts">Console scripts<a class="headerlink" href="#console-scripts" title="Permanent link">&para;</a></h2>
+<p>All tools ship as console scripts (installed into <code>.venv/bin</code> or <code>Scripts</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Script</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>tf-generator</code></td>
+<td>Build / convert / batch / apply <code>cheat spawnactor</code> sculpt batches</td>
+</tr>
+<tr>
+<td><code>tf-ark-rcon</code></td>
+<td>RCON protocol selftest &amp; diagnostics</td>
+</tr>
+<tr>
+<td><code>tf-nitrado</code></td>
+<td>List Nitrado services / test the REST API</td>
+</tr>
+<tr>
+<td><code>tf-discord-bot</code></td>
+<td>Run the Discord admin bot</td>
+</tr>
+</tbody>
+</table>
+<p>Each is also runnable as a module, e.g.
+<code>python -m terrorfibercraft.scripts.generator_cli ...</code>.</p>
+<h3 id="sculpt-generator">Sculpt generator<a class="headerlink" href="#sculpt-generator" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>tf-generator gen --preset dino_gate
+tf-generator gen --mode box --cols 9 --rows 6 --depth 9 --hole behemoth --floor --ceiling --blueprint watervein --json
+tf-generator convert --map ragnarok --lat 30.2 --lon 32.8
+tf-generator batch --file spots.json &gt; walls.txt
+tf-generator list
+tf-generator apply --host 1.2.3.4 --port 27020 --password SECRET --file walls.txt
+</code></pre></div>
+<h3 id="rcon-selftest">RCON selftest<a class="headerlink" href="#rcon-selftest" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>tf-ark-rcon --selftest
+</code></pre></div>
+<h3 id="nitrado">Nitrado<a class="headerlink" href="#nitrado" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>TF_NITRADO_TOKEN=xxxx tf-nitrado
+</code></pre></div>
+<h3 id="discord-bot">Discord bot<a class="headerlink" href="#discord-bot" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>cp config.example.json config.json   # then fill in tokens
+tf-discord-bot --config config.json
+</code></pre></div>
+<p>The bot registers slash commands via the <code>AdminCog</code> (<code>scripts/cog.py</code>):
+<code>/status</code>, <code>/players</code>, <code>/donate</code>, <code>/restart</code>. Admin-only commands require the
+role named by <code>admin_role</code>.</p>
+<h2 id="lint-type-check-test-build">Lint, type-check, test, build<a class="headerlink" href="#lint-type-check-test-build" title="Permanent link">&para;</a></h2>
+<p>Via uv directly:</p>
+<div class="highlight"><pre><span></span><code>uv run ruff check src tests
+uv run ruff format --check src tests
+uv run mypy src
+uv run pytest
+uv build
+</code></pre></div>
+<p>Or via the tox matrix (<code>lint</code>, <code>docs</code>, <code>build</code>, and <code>py311</code>/<code>py312</code>/<code>py313</code>):</p>
+<div class="highlight"><pre><span></span><code>uv run tox -e lint        # ruff + format-check + mypy
+uv run tox -e py312       # pytest on Python 3.12
+uv run tox -e docs        # mkdocs build --strict
+uv run tox -e build       # uv build + twine check
+uv run tox                # whole matrix
+</code></pre></div>
+<p><code>pre-commit</code> is configured (<code>.pre-commit-config.yaml</code>):</p>
+<div class="highlight"><pre><span></span><code>uv run pre-commit install
+</code></pre></div>
+<h2 id="docs">Docs<a class="headerlink" href="#docs" title="Permanent link">&para;</a></h2>
+<p>The API reference is generated from docstrings with MkDocs + mkdocstrings:</p>
+<div class="highlight"><pre><span></span><code>uv run mkdocs serve       # live preview at http://127.0.0.1:8000
+uv run mkdocs build --strict
+</code></pre></div>
+<p>Source lives in <code>docs/</code>; the generated site is written to <code>site/</code> (gitignored).</p>
+<h2 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">&para;</a></h2>
+<p>A <code>Dockerfile</code> runs the Discord bot in a container. Mount your <code>config.json</code>
+(or set <code>TF_*</code> env vars) and run:</p>
+<div class="highlight"><pre><span></span><code>docker build -t terrorfibercraft .
+docker run --rm -v "$(pwd)/config.json:/app/config.json" terrorfibercraft
+</code></pre></div>
+<h2 id="ci">CI<a class="headerlink" href="#ci" title="Permanent link">&para;</a></h2>
+<p><code>.github/workflows/ci.yml</code> lints, formats, type-checks, and tests on Python
+3.11–3.13, builds sdist + wheel, validates them with <code>twine</code>, and publishes to
+PyPI (trusted OIDC) on <code>v*</code> tags. A <code>Dockerfile</code> job builds/pushes a <code>ghcr.io</code>
+image on <code>main</code>. <code>.github/dependabot.yml</code> keeps pip (grouped) and
+GitHub Actions + docker base images updated.</p>
+<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>src/terrorfibercraft/
+  __init__.py        package metadata
+  config.py          pydantic-settings Settings + ServerConfig
+  rcon.py            sync + async Source RCON clients
+  nitrado.py         async httpx Nitrado REST client
+  generator.py       sculpt command builder (blueprints, presets, transforms)
+  scripts/
+    generator_cli.py tf-generator
+    ark_rcon.py      tf-ark-rcon
+    nitrado_client.py tf-nitrado
+    discord_bot.py   tf-discord-bot
+    cog.py           Discord AdminCog (slash commands)
+  config.py          pydantic-settings Settings + ServerConfig
+  rcon.py            sync + async Source RCON clients
+  nitrado.py         async httpx Nitrado REST client
+  generator.py       sculpt command builder (blueprints, presets, transforms)
+tests/
+  test_rcon.py test_generator.py test_config.py test_nitrado.py
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
